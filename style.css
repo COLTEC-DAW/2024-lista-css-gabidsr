@@ -51,25 +51,36 @@ a {
     color:#F25C05;
 }
 
-.preamble {
-    width: 600px;
+.summary {
     text-align: justify;
+    background-color: hsl(34, 78%, 91%, 0.6);
+}
+
+.preamble {
+    width: 900px;
+    text-align: justify;
+    background-color: hsl(34, 78%, 91%, 0.6);
 }
 
 .explanation {
+    width: 900px;
     text-align: justify;
+    background-color: hsl(34, 78%, 91%, 0.6);
 }
 
 .participation {
     text-align: justify;
+    background-color: hsl(34, 78%, 91%, 0.6);
 }
 
 .benefits {
     text-align: justify;
+    background-color: hsl(34, 78%, 91%, 0.6);
 }
 
 .requirements {
     text-align: justify;
+    background-color: hsl(34, 78%, 91%, 0.6);
 }
 
 
