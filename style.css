@@ -2,6 +2,7 @@ body {
     font-size: 16px;
     font-family: sans-serif;
     background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/fs/a230fc165098173.640181ca5901b.jpg");
+
 }
 
 h1 {
@@ -34,6 +35,8 @@ abbr {
 }
 
 .design-selection {
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/fs/26704c165098173.640181ca57d2f.jpg");
+    background-size: cover;
     float: right;
     float: top;
     color: #F2A922
@@ -57,13 +60,13 @@ a {
 }
 
 .preamble {
-    width: 900px;
+    width: 1000px;
     text-align: justify;
     background-color: hsl(34, 78%, 91%, 0.6);
 }
 
 .explanation {
-    width: 900px;
+    width: 1000px;
     text-align: justify;
     background-color: hsl(34, 78%, 91%, 0.6);
 }
