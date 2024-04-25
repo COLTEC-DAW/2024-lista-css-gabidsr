@@ -1,30 +1,76 @@
+body {
+    font-size: 16px;
+    font-family: sans-serif;
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/fs/a230fc165098173.640181ca5901b.jpg");
+}
 
 h1 {
-    font-size: 1.8rem;    
+    font-size: 1.8rem;
+    color: #BF1151
 }
 
 h2 {
     font-size: 1.4rem;
+    color: #BF1151;
 }
 
 h3 {
-    color: #23288C;
+    color: #BF1151;
     font-size: 1.2rem
 }
 
-body {
-    font-size: 16px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: #F2B2AC;
-}
-
-
-p{
+p {
     align-content: center;
     text-indent: 1.5;
-    color: #23288C;
+    color: #BF1151;
 }
 
-abbr{
+abbr {
     font-family: small-caps;
 }
+
+.intro {
+    font-size: ;
+}
+
+.design-selection {
+    float: right;
+    float: top;
+    color: #F2A922
+}
+
+.design-name {
+    color:#F25C05
+}
+
+.designer-name {
+    color: #F28F16
+}
+
+a {
+    color:#F25C05;
+}
+
+.preamble {
+    width: 600px;
+    text-align: justify;
+}
+
+.explanation {
+    text-align: justify;
+}
+
+.participation {
+    text-align: justify;
+}
+
+.benefits {
+    text-align: justify;
+}
+
+.requirements {
+    text-align: justify;
+}
+
+
+
