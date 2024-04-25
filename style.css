@@ -30,24 +30,11 @@ abbr {
     font-family: small-caps;
 }
 
-.intro {
-    font-size: ;
-}
-
-.design-selection {
-    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/fs/26704c165098173.640181ca57d2f.jpg");
-    background-size: cover;
-    float: right;
-    float: top;
-    color: #F2A922
-}
-
-.design-name {
-    color:#F25C05
-}
-
-.designer-name {
-    color: #F28F16
+header {
+    height: 230px;
+    padding: 20px 0 20px 0;
+    background-color: hsl(34, 78%, 91%, 0.6);
+    text-align: center;
 }
 
 a {
@@ -56,6 +43,7 @@ a {
 
 .summary {
     text-align: justify;
+    width: 1000px;
     background-color: hsl(34, 78%, 91%, 0.6);
 }
 
@@ -84,6 +72,22 @@ a {
 .requirements {
     text-align: justify;
     background-color: hsl(34, 78%, 91%, 0.6);
+}
+
+.design-selection {
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/fs/26704c165098173.640181ca57d2f.jpg");
+    background-size: cover;
+    float: right;
+    float: top;
+    color: #F2A922
+}
+
+.design-name {
+    color:#F25C05
+}
+
+.designer-name {
+    color: #F28F16
 }
 
 
