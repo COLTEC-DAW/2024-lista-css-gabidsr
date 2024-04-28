@@ -1,94 +1,200 @@
+@font-face {
+    font-family: "Bowlby", sans-serif;
+    src: url("https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap") format('eot');
+}
+
 body {
     font-size: 16px;
     font-family: sans-serif;
-    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/fs/a230fc165098173.640181ca5901b.jpg");
-
+    background-color: #FEE0BA;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: bottom;
+    
+    
 }
-
 h1 {
     font-size: 1.8rem;
-    color: #BF1151
+    color: #BF1151;
+    text-transform: uppercase;
 }
-
 h2 {
     font-size: 1.4rem;
     color: #BF1151;
 }
-
 h3 {
     color: #BF1151;
-    font-size: 1.2rem
+    font-size: 1.2rem;
+    text-transform: uppercase;
 }
-
 p {
     align-content: center;
     text-indent: 1.5;
     color: #BF1151;
 }
-
 abbr {
     font-family: small-caps;
+    border-bottom: none;
+    text-decoration: none;
 }
-
 header {
+    background-image: url("header-background.png");
     height: 230px;
-    padding: 20px 0 20px 0;
+    padding: 20px 0 50px 0;
     background-color: hsl(34, 78%, 91%, 0.6);
     text-align: center;
+    font-family: Bowlby;
 }
-
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #F25C05;
+	}
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #F25C05;
+	}
+a:hover, a:focus, a:active { 
+	text-decoration: none; 
+	color: #F25C05;
+	}
 a {
     color:#F25C05;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 300px;
+    }
+
+ul li {
+    position: relative;
 }
 
 .summary {
     text-align: justify;
     width: 1000px;
-    background-color: hsl(34, 78%, 91%, 0.6);
+    background-color: rgb(255, 200, 58, 0.2);
+    position: relative;
+    padding:10px;
 }
 
 .preamble {
     width: 1000px;
     text-align: justify;
-    background-color: hsl(34, 78%, 91%, 0.6);
+    background-color: rgb(246, 154, 51, 0.2);
+    position: relative;
+    padding:10px;
 }
 
 .explanation {
     width: 1000px;
     text-align: justify;
-    background-color: hsl(34, 78%, 91%, 0.6);
+    background-color: rgb(238, 103, 65, 0.2);
+    position: relative;
+    padding:10px;
 }
 
 .participation {
     text-align: justify;
-    background-color: hsl(34, 78%, 91%, 0.6);
+    background-color: rgb(234, 97, 107, 0.2);
+    position: relative;
+    padding:10px;
 }
 
 .benefits {
     text-align: justify;
-    background-color: hsl(34, 78%, 91%, 0.6);
+    background-color: rgb(238, 103, 65, 0.2);
+    position: relative;
+    padding:10px;
 }
 
 .requirements {
     text-align: justify;
-    background-color: hsl(34, 78%, 91%, 0.6);
+    background-color: rgb(246, 154, 51, 0.2);
+    position: relative;
+    padding:10px;
 }
 
+/*SIDEBAR*/
+/*DESIGN SELECTION*/
+.select {
+    padding-left: 50px;
+    padding-top: 45px;
+    text-transform: uppercase;
+}
 .design-selection {
-    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/fs/26704c165098173.640181ca57d2f.jpg");
+    background-color: hsl(34, 78%, 91%, 0.6);
     background-size: cover;
     float: right;
     float: top;
-    color: #F2A922
+    color: #F2A922;
+    position:
+    
 }
-
-.design-name {
-    color:#F25C05
+.design-selection ul{
+    padding:50px;
+    padding-top: 0;
 }
-
+.design-selection ul li{
+    position: static;
+    display: block;
+    text-decoration: none;
+    color: #E2144A;
+    background: transparent #fff;
+    padding: 30px;
+    border-bottom: 1px solid #faead6 ;
+ }
+ .design-selection ul li:last-child{
+    border-bottom:0;
+ }
+ .design-name {
+    font-size: 1.25rem;
+    text-transform: uppercase;
+ }
+ .design-name::after {
+    content:"\a";
+    white-space: pre;
+ }
 .designer-name {
     color: #F28F16
 }
 
-
-
+/*RESOURCES*/
+.resources {
+    text-align:left;
+    padding-left: 50px;
+    text-transform: uppercase;
+    padding-top: 45px;
+}
+.zen-resources {
+    background-color: hsl(34, 78%, 91%, 0.6);
+    background-size: cover;
+    float: right;
+    float: top;
+    color: #F2A922;
+    position: relative;  
+    font-size: 1.20rem;
+    text-transform: uppercase;
+    overflow: visible;
+}
+.zen-resources ul {
+    padding:50px;
+    padding-top:0;
+}
+.zen-resources ul li {
+    position: static;
+    display: block;
+    text-decoration: none;
+    color: #E2144A;
+    background: transparent #fff;
+    padding: 25px;
+    border-bottom: 1px solid #faead6 ;
+}
+.zen-resources ul li:last-child{
+    border-bottom:0;
+ }
