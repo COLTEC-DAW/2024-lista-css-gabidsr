@@ -7,12 +7,12 @@ body {
     font-size: 16px;
     font-family: sans-serif;
     background-color: #FEE0BA;
+    width: 80%;
+    
     background-image: url("background.jpg");
     background-repeat: no-repeat;
     background-size:contain;
     background-position: bottom;
-    
-    
 }
 h1 {
     font-size: 1.8rem;
@@ -50,16 +50,16 @@ a:link {
 	font-weight: bold; 
 	text-decoration: none; 
 	color: #F25C05;
-	}
+}
 a:visited { 
 	font-weight: bold; 
 	text-decoration: none; 
 	color: #F25C05;
-	}
+}
 a:hover, a:focus, a:active { 
 	text-decoration: none; 
 	color: #F25C05;
-	}
+}
 a {
     color:#F25C05;
 }
@@ -69,74 +69,105 @@ ul {
     padding: 0;
     list-style: none;
     width: 300px;
-    }
-
+}
 ul li {
     position: relative;
 }
 
+footer {
+    margin: 4%;
+    color: #FEF1DF;
+    text-align: center;
+}
+footer a:link {
+    font-size: 2rem;
+    color: #FEF1DF;
+    padding: 0.5em;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50%;
+    border-color: #FEF1DF;
+}
+footer a:hover {
+    color: rgb(254, 241, 223, 0);
+    background-color: #FEF1DF;
+}
+footer a:visited {
+    font-size: 2rem;
+    color: #FEF1DF;
+    padding: 0.5em;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50%;
+    border-color: #FEF1DF;
+}
+
+.intro {
+    height: 550px;
+}
+
 .summary {
     text-align: justify;
-    width: 1000px;
     background-color: rgb(255, 200, 58, 0.2);
     position: relative;
-    padding:10px;
+    
 }
 
 .preamble {
-    width: 1000px;
     text-align: justify;
     background-color: rgb(246, 154, 51, 0.2);
     position: relative;
-    padding:10px;
 }
 
 .explanation {
-    width: 1000px;
+    margin-right: 35%;
+    width: 60%;
     text-align: justify;
     background-color: rgb(238, 103, 65, 0.2);
     position: relative;
-    padding:10px;
+    padding: 2%;
+    border-right: #1f295c;
+   
 }
 
 .participation {
     text-align: justify;
     background-color: rgb(234, 97, 107, 0.2);
     position: relative;
-    padding:10px;
+    
 }
 
 .benefits {
     text-align: justify;
     background-color: rgb(238, 103, 65, 0.2);
     position: relative;
-    padding:10px;
+   
 }
 
 .requirements {
     text-align: justify;
     background-color: rgb(246, 154, 51, 0.2);
     position: relative;
-    padding:10px;
+   
 }
 
 /*SIDEBAR*/
 /*DESIGN SELECTION*/
 .select {
-    padding-left: 50px;
-    padding-top: 45px;
     text-transform: uppercase;
 }
 .design-selection {
     background-color: hsl(34, 78%, 91%, 0.6);
     background-size: cover;
-    float: right;
-    float: top;
     color: #F2A922;
+    padding: 2%;
+    top: 560px;
+    left: 62%;
+    width: 30%;
+    margin: 10px;
 }
 .design-selection ul{
-    padding:50px;
-    padding-top: 0;
+    padding:2%;
 }
 .design-selection ul li{
     position: static;
@@ -145,7 +176,7 @@ ul li {
     color: #E2144A;
     background: transparent #fff;
     padding: 30px;
-    border-bottom: 1px solid #faead6 ;
+    border-bottom: 1px solid #cc7f14;
  }
  .design-selection ul li:last-child{
     border-bottom:0;
@@ -172,13 +203,12 @@ ul li {
 .zen-resources {
     background-color: hsl(34, 78%, 91%, 0.6);
     background-size: cover;
-    float: right;
-    float: top;
     color: #F2A922;
     position: relative;  
     font-size: 1.20rem;
     text-transform: uppercase;
     overflow: visible;
+    width: 30%;
 }
 .zen-resources ul {
     padding:50px;
@@ -195,4 +225,8 @@ ul li {
 }
 .zen-resources ul li:last-child{
     border-bottom:0;
+ }
+
+ .design-archives {
+    display: none property;
  }
