@@ -18,6 +18,9 @@ body {
     background-repeat: no-repeat;
     background-size:contain;
     background-position: bottom;
+}
+
+.page-wrapper {
     width: 80%;
     margin:auto;
 }
@@ -177,6 +180,11 @@ footer a:visited {
 }
 
 /*SIDEBAR*/
+/*DESIGN ARCHIVES*/
+.navigation ul{
+    display: flex;
+    flex-direction: row;
+}
 /*DESIGN SELECTION*/
 .select {
     text-transform: uppercase;
