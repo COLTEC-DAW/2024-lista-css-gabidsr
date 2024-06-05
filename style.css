@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Bowlby+One&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-size: 16px;
+    font-family:'Roboto';
+    background-color: #FEE0BA;
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: bottom;
+    font-weight: 430;
+}
+
+.page-wrapper {
+    width: 80%;
+    margin:auto;
+    max-width: 1280px;
+}
+h1 {
+    font-size: 1.8rem;
+    color: #BF1151;
+    text-transform: uppercase;
+}
+h2 {
+    font-size: 1.4rem;
+    color: #BF1151;
+}
+h3 {
+    color: #BF1151;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-family: 'Bowlby One';
+}
+p {
+    text-indent: 1em;
+    line-height: 1.5em;
+    color:#BF1151;
+}
+abbr {
+    font-variant: small-caps;
+    border-bottom: none;
+    text-decoration: none;
+}
+header {
+    background-image: url("header-background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 205px;
+    padding: 20px 0 50px 0;
+    background-color: hsl(34, 78%, 91%, 0.6);
+    text-align: center;
+    font-family: 'Bowlby One';
+    background-position:center;
+}
+
+header h1{
+    margin-right: 1em;
+    text-transform: uppercase;
+}
+*[role=banner] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+*[role=banner] *{
+    display: inline-block;
+}
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #F25C05;
+}
+a:visited { 
+	font-weight: bold;
+	text-decoration: none; 
+	color: #F25C05;
+}
+a:hover { 
+	text-decoration: none; 
+	color: #f17a35;
+}
+a {
+    color:#F25C05;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 300px;
+}
+ul li {
+    position: relative;
+}
+
+footer {
+    margin: 4%;
+    color: #FEF1DF;
+    text-align: center;
+    display:flex;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+    
+    
+    a:link {
+        color: #FEF1DF;
+        padding: 0.5em;
+        border-style: solid;
+        border-width: 2px;
+        border-radius: 100%;
+        border-color: #FEF1DF;
+        width: 50px;
+        height: 50px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2%;
+        margin-inline: 67px;
+    }
+    a:hover {
+        background-color: #fef1df9d;
+    }
+    a:visited {
+        font-size: 2rem;
+        color: #FEF1DF;
+        padding: 0.5em;
+        border-style: solid;
+        border-width: 2px;
+        border-radius: 50%;
+        border-color: #FEF1DF;
+    }
+}
+
+.intro {
+    height: 630px;
+}
+
+.summary {
+    text-align: justify;
+    background-color: rgb(255, 200, 58, 0.2);
+    margin-block: 10px;
+    text-align: center;
+
+    a {
+        text-transform: uppercase;
+    }
+}
+
+.preamble {
+    text-align: justify;
+    background-color: rgb(246, 154, 51, 0.2);
+    margin-block: 10px;
+    padding:2%; 
+}
+
+.main-supporting {
+    line-height: 1.5;
+
+    .explanation p:first-of-type::first-letter {
+        font-size: 48px;
+        font-family:'Bowlby One';
+    }
+}
+
+.explanation {
+    text-align: justify;
+    background-color: #ee674133;
+    padding: 2%;
+    width: 65%;
+    margin-right: 35%;
+    margin-block: 10px;
+    border-right: #1f295c;
+}
+
+.participation {
+    text-align: justify;
+    background-image: linear-gradient(#ea616a3b, #faead680);
+    padding: 2%;
+    width: 65%;
+    margin-block: 10px;
+    border-top: rgb(234, 97, 107, 0.2);
+    border-bottom: rgb(234, 97, 107, 0.2);
+    display:flex;
+    flex-direction: column;
+
+    h3 {
+        flex-basis: 50%;
+        align-self: center;
+    }
+    p {
+        flex-basis: 50%;
+    }
+}
+
+.benefits {
+    text-align: justify;
+    background-color: #faead680;
+    padding: 2%;
+    width: 65%;
+    margin-block: 10px;
+    border-top: rgb(238, 103, 65, 0.2);
+    border-bottom: rgb(238, 103, 65, 0.2);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    flex-flow:row-reverse;
+
+    h3 {
+        text-align: center;
+        align-self: center;
+        flex-basis:30%;   
+    }
+    p {
+        flex-basis: 70%; 
+    }
+}
+
+.requirements {
+    text-align: justify;
+    background-color: #faead680;
+    position: relative;
+    padding: 2%;
+    width: 65%;
+    margin-block: 10px;
+}
+
+/*SIDEBAR*/
+/*DESIGN ARCHIVES*/
+.navigation ul{
+    display: flex;
+    flex-direction: row;
+}
+/*DESIGN SELECTION*/
+.select {
+    text-transform: uppercase;
+    padding-left: 2%;
+    text-align: left;
+    margin-top: 50px;
+}
+.design-selection {
+    background-image: linear-gradient(#ea616b33, #faead6b6);
+    color: #F2A922;
+    position: absolute;
+    padding-inline: 2%;
+    top: 648px;
+    left: 63.5%;
+    width: 16.8%;
+
+    ul{
+        padding:2%;
+    }
+    ul li{
+        text-decoration: none;
+        color: #E2144A;
+        margin:1em;
+        padding-top: 30px;
+        padding-bottom:15px;
+        border-top: 1px solid #faead6;
+    }
+    ul li:first-child {
+        border-top: 0;
+        padding-top: 0;
+    }
+    ul li:last-child{
+        border-bottom: 1px hsl(34, 78%, 91%, 0.6);
+    }
+}
+ .design-name {
+    font-size: 1.25rem;
+    text-transform: uppercase;
+ }
+ .design-name::after {
+    content:"\a";
+    white-space: pre;
+ }
+ 
+.designer-name {
+    color: #F28F16
+}
+
+/*RESOURCES*/
+.resources {
+    text-align:left;
+    padding-left: 2%;
+    text-transform: uppercase;
+    text-align: left;
+    margin-top: 50px;
+}
+.zen-resources {
+    background-color: #faead6b6;
+    background-size: cover;
+    color: #F2A922;
+    position: absolute;  
+    text-transform: uppercase;
+    padding-inline: 2%;
+    width: 16.8%;
+    left: 63.5%;
+    top: 1595px;
+
+    ul {
+        padding:2%;
+        padding-top:0;
+    }
+    ul li {
+        font-size: 1.25rem;
+        text-decoration: none;
+        color: #E2144A;
+        background: transparent #fff;
+        margin: 1em;
+        padding-top: 30px;
+        padding-bottom: 15px;
+        border-top: 1px solid #faead6 ;
+    }
+
+    ul li:first-child {
+        border-top: 0;
+    }
+}
+
+ .design-archives {
+    display: none property;
+ }
+
+ #design-archives {
+    display:none;
+ }
